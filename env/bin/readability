@@ -1,0 +1,3 @@
+#!/Users/robo/Documents/Fready/frengine/env/bin/python3
+import readability
+readability.main()
