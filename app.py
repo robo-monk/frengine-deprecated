@@ -34,7 +34,7 @@ def api(link):
 
 
 if __name__ == '__main__':
-    app.run(debug)
+    app.run()
 
 # @app.route('/')
 # def home():
