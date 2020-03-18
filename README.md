@@ -2,7 +2,7 @@
 
 ###
 
-`Python` API used to scrape web pages cleanly by [Fready](https://www.fready.herokuapp.com/)
+`Python` API used to scrape web pages cleanly by [Fready](https://fready.herokuapp.com/)
 
 ###
 
