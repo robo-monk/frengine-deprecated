@@ -2,7 +2,7 @@
 
 ###
 
-`Python` API used to scrape web pages cleanly by [robomonk](https://www.github.com/robomonk) developed for `Fready`
+`Python` API used to scrape web pages cleanly by [Fready](https://www.fready.herokuapp.com/)
 
 ###
 
