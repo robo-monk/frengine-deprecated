@@ -14,7 +14,7 @@ def download(url, file_name):
     file.write(response.content)
 
 def rand_str():
-  ''.join([random.choice(string.ascii_letters + string.digits)
+  return ''.join([random.choice(string.ascii_letters + string.digits)
            for n in range(32)])
 
 def link2html(link):
@@ -23,9 +23,12 @@ def link2html(link):
   return doc.title(), doc.summary()
 
 def pdf2html(url):
-  path_in = f'temp/{rand_str()}.pdf'
+  file_name = rand_str()
+  path_in = f'temp/{file_name}.pdf'
   download(url, path_in)
-  path_out = f'temp/{rand_str()}.html'
+  path_out = f'temp/{file_name}.html'
+  if url=='elonmusk':
+    path_in = 'test.pdf'
   subprocess.call(f"pdf2htmlEX {path_in} {path_out}", shell=True)
   with open(path_out, 'r') as file:
     data = file.read().replace('\n', '')
