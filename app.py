@@ -47,10 +47,30 @@ def api(link):
     return jsonify(data)
   except:
     return abort(400)
-
-
-@app.route("/api/pdf_to_html/<path:url>")
+  
+@app.route("/pdf2html/<path:url>")
 def convert_to_html(url):
+  try:
+    path_in = f'temp/{rand_str()}.pdf'
+    print(path_in)
+    download(url, path_in)
+    path_out = f'temp/{rand_str()}.html'
+    print(path_out)
+    subprocess.call(f"pdf2htmlEX {path_in} {path_out}", shell=True)
+    
+    with open(path_out, 'r') as file:
+      data = file.read().replace('\n', '')
+
+    os.remove(path_in)
+    os.remove(path_out)
+    
+    return (data)
+  except:
+    return abort(400)
+
+
+@app.route("/api/pdf2html/<path:url>")
+def convert_to_html_api(url):
   try:
     path_in = f'temp/{rand_str()}.pdf'
     download(url, path_in)
