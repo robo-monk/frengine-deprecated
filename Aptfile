@@ -1,9 +1,9 @@
 libc6
-libcairo2
 libfontforge1
-libfreetype6
-libpoppler44
 libgcc1
+libjs-pdf
 libstdc++6
+http://mirrors.kernel.org/ubuntu/pool/main/p/poppler/libpoppler57_0.38.0-0ubuntu1_amd64.deb
+https://launchpad.net/~coolwanglu/+archive/ubuntu/pdf2htmlex/+files/pdf2htmlex_0.12-1~git201411121058r1a6ec-0ubuntu1~trusty1_amd64.deb
 ttfautohint
 https://launchpad.net/~coolwanglu/+archive/ubuntu/pdf2htmlex/+files/pdf2htmlex_0.12-1~git201411121058r1a6ec-0ubuntu1~trusty1_amd64.deb
