@@ -1,11 +1,10 @@
 libc6
-libcairo2
 libfontforge1
-libfreetype6
-libpoppler44
 libgcc1
-liblcms2-2
-libstdc++6
-ttfautohint
-poppler-utils
+libjs-pdf
+
+http://launchpadlibrarian.net/233530614/libstdc++6_5.3.1-5ubuntu2_amd64.deb
+http://launchpadlibrarian.net/227312060/libpoppler57_0.38.0-0ubuntu1_amd64.deb
 https://launchpad.net/~coolwanglu/+archive/ubuntu/pdf2htmlex/+files/pdf2htmlex_0.12-1~git201411121058r1a6ec-0ubuntu1~trusty1_amd64.deb
+
+ttfautohint
