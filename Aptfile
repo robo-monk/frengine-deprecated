@@ -1,8 +1,10 @@
-fonts-liberation
-libreoffice-base-core
-libreoffice-calc
-libreoffice-writer
-libreoffice
-libpython2.7
-pdf2htmlex
+libc6
+libcairo2
+libfontforge1
+libfreetype6
+libpoppler44
+libgcc1
+libstdc++6
+ttfautohint
 poppler-utils
+https://launchpad.net/~coolwanglu/+archive/ubuntu/pdf2htmlex/+files/pdf2htmlex_0.12-1~git201411121058r1a6ec-0ubuntu1~trusty1_amd64.deb
